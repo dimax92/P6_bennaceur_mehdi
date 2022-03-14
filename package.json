@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^14.3.2",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.2",
+    "express-rate-limit": "^6.2.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "maskdata": "^1.1.6",
+    "mongoose": "^6.1.8",
+    "mongoose-errors": "^1.1.2",
+    "mongoose-unique-validator": "^3.0.0",
+    "password-validator": "^5.2.1",
+    "path": "^0.12.7"
+  }
+}
